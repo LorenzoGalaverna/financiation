@@ -1,0 +1,56 @@
+.nameuser {
+	margin-top: 1vh;
+}
+
+.UserCard {
+	border-radius: 3vh !important;
+	padding: 1vh;
+}
+
+.profileimage {
+	padding: 0.2vw;
+}
+
+.status {
+	padding: 1vw;
+}
+
+
+
+.check {
+	padding: 1.1vw;
+	width: 1.3vw;
+	height: 1.3vw;
+	margin-left: 3vw;
+}
+
+.roleocupado {
+	padding: 1vw;
+}
+.content-select{
+	width: 12vw;
+	height: 6vh;
+}
+
+.RoleSelect{
+	background-color: white;
+    border-radius: 2vh;
+    height: 7vh;
+}
+
+@media	(max-width: 800px){
+	.UserCard{
+		margin-left: -13vw;
+		width: 100vw;
+	}
+
+	.check{
+		width: 5vw;
+		height: 5vh;
+		margin-left: 6vw;
+	}
+	.form-select{
+		width: 60vw !important;
+	}
+}
+

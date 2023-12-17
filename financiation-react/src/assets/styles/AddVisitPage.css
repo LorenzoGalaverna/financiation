@@ -1,0 +1,53 @@
+.visit-field-row {
+    margin: 1vw;
+}
+
+.visit-field-title {
+    text-align: center;
+}
+
+.visit-field {
+    width: 100%;
+}
+
+.visit-submit-button {
+    width: 15vw;
+    display: block;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.separarboton{
+    margin-left: 0.5vh;
+}
+
+@media (max-width: 800px){
+    .visit-submit-button{
+        width: 100%;
+    }
+}
+
+.botonesredondos{
+    margin-top: 0px;
+    padding-left: 0px !important;
+}
+
+@media (max-width: 574px) {
+    .botonesredondos {
+        margin-top: 5vh;
+    }
+}
+.botonesredondoslocal{
+    margin-top: 0px;
+    padding-left: 0px !important;
+}
+
+@media (max-width: 574px) {
+    .botonesredondoslocal {
+        margin-top: 0vh;
+    }
+}

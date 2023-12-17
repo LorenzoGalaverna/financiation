@@ -1,7 +1,82 @@
-.formschecks {
-    padding: 10px
+.fields-container {
+    height: 8vh;
 }
 
-.buttonconsulta {
-    max-width: 120px;
+.asesor-container {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.asesor-avatar {
+    margin: 0;
+    padding: 0;
+}
+
+.asesor-name {
+    margin: 0;
+    padding: 0;
+}
+
+.avatar-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-field-title {
+    margin: 0;
+    padding: 0;
+}
+
+.fields-row {
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.form-select {
+    background-color: white;
+    border-radius: 2vh;
+    height: 7vh;
+}
+
+.input-in-form {
+    height: 7vh;
+    background-color: white;
+    border-radius: 2vh;
+    border:1px solid lightgray;
+    outline-color: lightgray;
+}
+
+.consulta-field{
+    padding: 15px;
+    height: 7vh !important;
+}
+
+.consulta-button{
+    border-radius: 15px;
+    background-color: #53A6DC;
+    border-color: #53A6DC;
+    color: white;
+    padding: 10px;
+    height: 7vh;
+
+}
+
+@media (max-width: 800px) {
+
+    .fields-container{
+        height: auto;
+    }
+
+    .form-select{
+        width: 90vw !important;
+    }
+
+    .request-field-title{
+        justify-content: center;
+    }
+
+    .consulta-field{
+        width: 85vw !important;
+    }
 }

@@ -1,0 +1,49 @@
+.accordion-visits{
+    width: auto;
+    border-radius: 2vh !important;
+    padding: 3px;
+  
+}
+
+.SearchVisit{
+    margin-top: 2vh !important;
+    width: 65vw !important;
+    background-color: white;
+    border-radius: 4vh;
+    color: #000;
+}
+
+.row1{
+    background-color: #f4f4f4;
+    border-radius: 2vh;
+}
+
+.row2{
+    background-color: white;
+    border-radius: 2vh;
+}
+
+.ButtonAddVisit{
+    margin-top: 2vh !important;
+}
+
+.ButtonEditVisit{
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+.Buttonedit{
+    border-radius: 15px !important;
+    background-color: #53A6DC !important;
+    border-color: #53A6DC !important;
+    color: white !important;
+    padding: 10px !important;
+    }
+    
+    .Buttondelete{
+        border-radius: 15px !important;
+        background-color: #dc5353 !important;
+        border-color: #df2e2e !important;
+        color: white !important;
+        padding: 10px !important;
+        }

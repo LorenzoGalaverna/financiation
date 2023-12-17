@@ -1,18 +1,41 @@
-.create-group-card {
-    padding: 2vh;
+.BtnCrearGrupo{
+	background-color: #53A6DC;
+    border-radius: 3vh;
+    border-color: #53A6DC;
+    width: 200px;
+    padding: 8px;
+    color: white;
+	margin: 5vh;
 }
 
-.upper-row {
-    padding: 3vh;
+.containerUserCard {
+	margin-top: 3vh;
 }
 
-.create-group-column {
-    padding: 2vh;
-    max-height: 55vh;
-    overflow: hidden;
+#icongroupgrupo{
+	align-items: center;
+	margin-top: 2vh;
 }
 
-.create-group-card-scroll {
-    max-height: 100%;
-    overflow-y: scroll;
+.SeeGroupsButton, .CreateGroupsButton {
+    width: auto;
+    margin-top: 3vh;
 }
+
+.SearchCreateGroup{
+	width: 50vw !important;
+	height: 8vh;
+	margin-top: 3vh !important;
+	border-radius: 3vh;
+}
+
+@media (max-width: 800px){
+    .SearchCreateGroup{
+        width: 80vw !important;
+    }
+    .SeeGroupsButton, .CreateGroupsButton {
+        margin-left: -3vw;
+        width: 45vw;
+    }
+}
+
